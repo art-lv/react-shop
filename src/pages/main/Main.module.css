@@ -1,0 +1,38 @@
+.AppLogo {
+    height: 30vmin;
+    pointer-events: none;
+}
+
+
+.AppLogo {
+    animation: App-logo-spin infinite 20s linear;
+}
+
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.main {
+    background-color: #282C34;
+    height: calc(100vh - 100px);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.link {
+    display: block;
+    color: #000;
+    font-size: 30px;
+    background-color: #61dafb;
+    padding: 10px 0;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
